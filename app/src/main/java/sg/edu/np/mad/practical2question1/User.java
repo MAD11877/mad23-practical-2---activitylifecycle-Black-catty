@@ -12,6 +12,9 @@ public class User {
         this.id = id;
         this.followed = followed;
     }
+    public User(){
+
+    }
 
     public String getName() {
         return name;
